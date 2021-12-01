@@ -2,6 +2,14 @@
 
 This is an open source project. I will be pushing in this file one challenges solved in Ruby and Javascript. my target will be at least one challenge per day. I hope this will be a good contribution for other developers.
 
+## Getting Started
+
+To get a local copy up and running follow these simple steps inside the root folder.
+
+## Usage
+
+- for ruby program run `ruby` + name of programm(example: `ruby two-numer.rb)
+
 ## Authors
 
 👤 **Donat UWAMAHORO**
