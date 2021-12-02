@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple steps inside the root fol
 
 ## Usage
 
-- for ruby program run `ruby` + name of programm(example: `ruby two-numer.rb)
+- for ruby programs: run `ruby` + name of programm(example: `ruby two-numer.rb)
 
 ## Authors
 
