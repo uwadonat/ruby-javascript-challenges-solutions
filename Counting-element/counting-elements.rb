@@ -3,7 +3,7 @@ def counting_elements(arr)
     count = 0
     new_arr = arr.sort
     (0..new_arr.length - 1).each do |i|
-        (i + 1..new_arr.legth -1).each do |j|
+        (i + 1..new_arr.length - 1).each do |j|
             if new_arr[j] == new_arr[i] + 1
                 count = count +1
             end
