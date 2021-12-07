@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple steps inside the root fol
 - for ruby programs: run `ruby` + name of programm(example: `ruby two-numer.rb)
 - for JavaScript programs:
 
-  ### `cd into directory`
+  ### `cd into challenge directory`
 
   ### `open index file into your browser`
 
