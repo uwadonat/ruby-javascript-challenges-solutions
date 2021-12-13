@@ -1,3 +1,3 @@
-const Longest = function(s) => {
+const Longest = function (s) {
   return s;
-}
+};
