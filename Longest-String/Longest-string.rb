@@ -1,6 +1,9 @@
 def length_of_longest_substring(s)
-
-   puts s.split("")
+   array = s.split("")
+   longest-length = 0
+  (0..array.length - 1).each do i
+     
+  end
 end
 
 length_of_longest_substring("Donat")
