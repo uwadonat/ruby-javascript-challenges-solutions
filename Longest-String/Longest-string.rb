@@ -1,6 +1,6 @@
 def length_of_longest_substring(s)
    array = s.split("")
-   longest-length = 0
+   longest_length = 0
   (0..array.length - 1).each do i
      
   end
