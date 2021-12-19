@@ -16,9 +16,9 @@ def length_of_longest_substring(s)
      end
 
   end
- puts max.counted; 
+ puts counted.max; 
   
  
 end
 
-length_of_longest_substring("Donatty")
+length_of_longest_substring("bbbbb")
