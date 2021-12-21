@@ -15,6 +15,6 @@ const Longest = (s) => {
       length_array.push(length_counter);
     }
   }
-
-  console.log(s);
+  let answer = length_array.max();
+  console.log(answer);
 };
