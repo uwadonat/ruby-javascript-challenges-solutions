@@ -1,3 +1,5 @@
+### Note: this challenge is not complete
+========================================
 var addBinary = function(a, b) {
     let result=[]
        let x=a.split("")
@@ -14,22 +16,55 @@ var addBinary = function(a, b) {
        }else {
            length=yLength;
            let diff2=yLength - xLength
-           for (n=0;n<diff1;++n){
+           for (n=0;n<diff2;++n){
                x.unshift("0");
            }
        }
-          
-       
-       for ( var i=length -1; i >=0; --i) {
-           let temp = 0;
+         
+       return x[-1]
+       for ( var i=length-1; i>= 0; --i) {
+           return 
+           let temp = false;
            let sum =0;
-           if ((x[i] && y[i]) === "0") {
-               sum = "0"
-           } else if ((x[i] && y[i]) === "1") {
-               sum = "0"
-               temp= "1"
-           }else {
-               sum = "1"
+           
+        if ((x[i] && y[i]) === "1") {
+              if(temp) {
+                  sum = "1"
+              }
+            else {
+               sum = "0" 
+               temp= true 
+            }
+               
+                
+           }else if((x[i] ==="1") && (y[i] === "0")){
+               if(temp) {
+                   sum = 0
+                   temp = true
+               }
+               else {
+                  sum = "1" 
+               }
+               
+           }
+           else if((x[i]==="0") && (y[i] === "1")) {
+                if(temp) {
+                   sum = 0
+                   temp = true
+               }
+               else {
+                  sum = "1" 
+               }
+               
+           }
+           else {
+               if(temp) {
+                   sum = 1
+               }
+               else {
+                    sum ="0"
+               }
+              
            }
            
            result.unshift(sum)
@@ -37,7 +72,8 @@ var addBinary = function(a, b) {
            
        }
            
-       return result
+       return result;
        
     };
+    
     
