@@ -8,14 +8,17 @@ To get a local copy up and running follow these simple steps inside the root fol
 
 ## Usage
 
-- for ruby programs: run `ruby` + name of programm(example: `ruby two-numer.rb)
+- for ruby programs: run `ruby` + name of programm(example: `ruby two-number.rb`)
 - for JavaScript programs:
 
   ### `cd into challenge directory`
 
   ### `open index file into your browser`
 
-## Authors
+         or
+- run `node` + name of programm(example: `ruby two-number.js`)
+
+## Author
 
 👤 **Donat UWAMAHORO**
 
