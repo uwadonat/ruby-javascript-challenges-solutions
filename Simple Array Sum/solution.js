@@ -4,5 +4,7 @@ function simpleArraySum(ar) {
     ar.forEach((num) => {
         sum = sum + num
     })
-    return sum
+    console.log(sum)
 }
+
+simpleArraySum([1,6,10,30,5]);
