@@ -17,18 +17,13 @@ function diagonalDifference(arr) {
              }
          }
      }
-     let j = 2;
      
+     let j = length - 1;
      for (let i=0; i< length; i++) {
-         while ( j >= 0) {
-             
-             right_to_left += arr[i][j] 
-             --j;
-         }
-         
-        
-     }
+         right_to_left += arr[i][j] 
+         --j;
+        }
      diff = left_to_right - right_to_left
      let result = Math.abs(diff);
-     return diff;
+     return result;
 }
