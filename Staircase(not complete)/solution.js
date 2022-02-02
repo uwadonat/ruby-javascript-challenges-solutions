@@ -15,10 +15,6 @@ function staircase(n) {
         }
         result.push(x);
     }
-     for ( let i = 0; i <= limit; i++) {
-        for (let j=0; j <= limit; j++) {
-            console.log(result[i][j]);
-           }
-        }
+    
 
 }
