@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple steps inside the root fol
   ### `open index file into your browser`
 
          or
-- run `node` + name of programm(example: `ruby two-number.js`)
+- run `node` + name of programm(example: ` two-number.js`)
 
 ## Author
 
